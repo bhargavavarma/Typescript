@@ -4,6 +4,13 @@ export interface TodoObject {
   title: string
 }
 
+export interface PostObject {
+  userId: number
+  id: number
+  title: string
+  body: string
+}
+
 export interface UpdateCompletionStatusRequest {
   id: string
   is_completed: boolean
